@@ -219,6 +219,10 @@ section{
     margin: 100px 0px;
 }
 
+.fotinha img{
+    width: 50%;
+}
+
 .falamais{
     margin: 10px 20px;
 }
@@ -350,5 +354,13 @@ footer p{
 @media (max-width: 500px){
     .buscar input{
         width: 200px;
+    }
+
+    .fotinha img{
+        width: 80%;
+    }
+
+    #filtro{
+        width: 300px;
     }
 }

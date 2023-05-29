@@ -14,7 +14,6 @@ fetch ('https://fakestoreapi.com/products')
             let vendas = produtos[i].rating.count;
             let id = produtos[i].id;
 
-
             str += `<div class="produto">
 
             <div class="imagem">
@@ -50,12 +49,11 @@ fetch ('https://fakestoreapi.com/products')
 
         for(let i = 6; i < 9; i++){
 
-            let ids = 0;
+            let id = produtos[i].id;
             let preco = produtos[i].price;
             let imagem = produtos[i].image;
             let estrela = produtos[i].rating.rate;
             let vendas = produtos[i].rating.count;
-            let id = produtos[ids];
 
             str2+= `<div class="lados">
     
@@ -63,7 +61,7 @@ fetch ('https://fakestoreapi.com/products')
 
                 <div class="foto">
 
-                    <a href= "detalhes.html?id=${id}"><img src="${imagem}" width="100px" height="100px"> </a>
+                    <a href= "detalhes.html?id=${id}}"><img src="${imagem}" width="100px" height="100px"> </a>
 
                 </div>
 
@@ -79,7 +77,6 @@ fetch ('https://fakestoreapi.com/products')
 
         </div>`
             
-        ids++;
         }
 
         document.getElementById('tela').innerHTML = str;
