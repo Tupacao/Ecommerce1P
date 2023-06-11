@@ -7,7 +7,6 @@ fetch ('https://fakestoreapi.com/products')
         let ids = parseInt(link.get('id'));
         
 
-
         for (let i = 0; i < produtos.length; i++){
 
             if ((ids - 1) === i){
