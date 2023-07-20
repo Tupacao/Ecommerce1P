@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body{
+    background-color: #2d2d2dff;
+}
+
+/* cabeçalho */
+
+.header{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 10;
+}
+
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links{
+    margin: auto 0px;
+}
+
+.header ul li{
+    list-style: none;
+    margin: auto 10px;
+    font-size: 30px;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul a:hover{
+    transform: scale(1.05);
+}
+
+
+/* videos */
+
+.videos{
+    margin-top: 300px;
+    display: flex;
+    margin-bottom: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* scratch */
+
+.scratchs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 250px;
+}
+
+.jogo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f41c79ff;
+    border-radius: 10px;
+    max-width:40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.descricao{
+    padding: 10px;
+}
+
+.descricao h1{
+    font-size: 35px;
+}
+
+.descricao p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* tinker Cad */
+
+.arduino{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f41c79ff;
+    margin: auto 10%;
+    justify-content: space-around;    
+    border-radius: 10px;
+}
+
+.ardududu{
+    width: 80%;
+    padding: 10px;
+}
+
+.ardududu h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+.ardududu p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+/* Formulario */
+
+.formulario{
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.formulario .info{
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+.formulario h1{
+    font-size: 40px;
+}
+
+.formulario p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes_sociais{
+    margin: 10px 0px;
+}
+
+.contatos{
+    margin: 10px 0px;
+}
+
+@media (max-width: 1200px){
+    .jogo{
+        display: flex;
+        background-color: #f41c79ff;
+        border-radius: 10px;
+        max-width:40%;
+        margin: auto;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .arduino{
+        display: flex;
+        background-color: #f41c79ff;
+        margin: auto 10%;
+        justify-content: space-around;    
+        border-radius: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 800px){
+    .scratchs{
+        display: block;
+        padding: 10px;
+        margin-bottom: 250px;
+    }
+    .arduino{
+        display: block;
+        background-color: #f41c79ff;
+        margin: auto;
+        border-radius: 10px;
+    }
+}
