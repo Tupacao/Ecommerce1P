@@ -1,3 +1,3 @@
-# Sites_Finais
+# E-Commerce
 
-> Sites criados durante o primeiro périodo para aprendizado e para trabalhos em diferentes partes do curso.
+> Sites de ecommerce criado no primeiro perido da faculdade de Ciências da Computação
